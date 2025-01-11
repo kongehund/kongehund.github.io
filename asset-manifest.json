@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4aca021a.css",
+    "main.js": "/static/js/main.ec93abe2.js",
+    "static/media/tempora-bg.jpg": "/static/media/tempora-bg.5965ba096c0dedc0eeae.jpg",
+    "static/media/osulogo.png": "/static/media/osulogo.72662af29a6e49ebd21d.png",
+    "index.html": "/index.html",
+    "main.4aca021a.css.map": "/static/css/main.4aca021a.css.map",
+    "main.ec93abe2.js.map": "/static/js/main.ec93abe2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aca021a.css",
+    "static/js/main.ec93abe2.js"
+  ]
+}
