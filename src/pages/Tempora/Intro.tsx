@@ -7,7 +7,7 @@ export default function Intro() {
     return (
         <div className={introStyles.introContainer} id="intro">
             <div className={introStyles.introImage}>
-                <img src="src/assets/tempora-logo.png" alt="Tempora Logo" />
+                <img src="/tempora-logo.png" alt="Tempora Logo" />
             </div>
             <div className={introStyles.introText}>
                 <h1>Tempora</h1>

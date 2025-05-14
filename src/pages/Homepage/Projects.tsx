@@ -31,7 +31,7 @@ export default function Projects(){
         ref={projectsGridRef}>
                 <div className="projectCard">
                     <Link to="/tempora">
-                        <img src="src/assets/tempora-logo.png" alt="Tempora Logo" />
+                        <img src="/tempora-logo.png" alt="Tempora Logo" />
                     </Link>
                     <h2>Tempora</h2>
                     <p>Quick and Efficient Music Timing</p>
