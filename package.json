@@ -1,5 +1,6 @@
 {
   "name": "kongehund-website",
+  "homepage": "https://kongehund.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
