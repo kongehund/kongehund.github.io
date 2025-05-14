@@ -1,0 +1,23 @@
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+.buttonIcon {
+    width: 30px; /* Adjust the width */
+    height: 30px; /* Adjust the height */
+    margin-right: 10px; /* Add space between the icon and the text */
+    vertical-align: middle; /* Align the icon vertically with the text */
+}

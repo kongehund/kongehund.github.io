@@ -1,0 +1,101 @@
+.homepageContainer{
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+        margin: auto;
+        padding: 20px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        width: 800px;
+    }
+}
+
+.introContainer{
+    width: 100%;
+    background-color: #1C5969;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    
+    p {
+        box-sizing: border-box;
+        text-align: center;
+        width: 800px;;
+        margin: auto;
+        // padding: auto;
+        // max-width: 800px;
+    }
+}
+
+.projectsContainer{
+    width: 100%; /* Ensure the container spans the full width of the page */
+    overflow-x: hidden; /* Prevent horizontal scrolling on the parent container */
+
+    p {
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+
+    .projectsGrid{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 48px;
+        // padding: 100px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        width:100%;
+        
+        padding-top: 48px;
+        display:inline-flex;
+        overflow: auto;
+        padding-bottom: 48px;
+        padding-left: calc(50% - 300px); /* Center the first project card */
+        padding-right: calc(50% - 300px); /* Center the last project card */
+        
+        
+        .projectCard{
+            flex: 0 0 auto; /* Prevent cards from shrinking or growing */
+            // margin: 0 48px;
+            // display: inline-block;
+            background-color: white;
+            border-radius: 40px;
+            color: black;
+            padding: 20px;
+            width: 600px; /* Adjust the width as needed */
+            text-align: center;
+            box-sizing: border-box; /* Ensure padding is included in width/height */
+            margin-right: 20px; /* Space between cards */
+            text-align: center;
+            min-height: 550px; /* Set a minimum height for the cards */
+
+            img {
+                padding: 48px 0 0 0;
+                width: 50%; /* Adjust the size of the logo */
+                height: auto;
+                border-radius: 20px;
+            }
+
+            p {
+                text-align: center;
+                width: auto;
+            }
+        }
+
+        .projectCard--empty{
+            display: flex;;
+            background-color: transparent; /* No background color */
+            border: 2px dashed white; /* Dashed white border */
+            border-width: 5px;
+            color: white; /* Optional: Change text color for contrast */
+        }
+    }
+}

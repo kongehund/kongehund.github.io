@@ -1,0 +1,31 @@
+.showcaseContainer{
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    .showcaseText{
+        width: 30%;
+        // flex-direction: column;
+        justify-content: space-between;
+        // align-items: center;
+        text-align: left;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin: auto;
+        padding: 20px;
+        text-align: left;
+        position: relative;
+    }
+    iframe {
+        width: 70%;
+        height: 0%;
+        aspect-ratio: 1.7777777778;
+        border: none;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+}

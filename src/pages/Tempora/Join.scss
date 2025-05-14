@@ -1,0 +1,53 @@
+.joinContainer{
+    background-color: #1C5969;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    // padding: 20px;
+
+    .joinBox{
+        background-color: white;
+        border-radius: 40px;
+        color: black;
+        padding: 20px;
+        
+        width: 40%;
+        text-align: center;
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        align-items: center; /* Center children horizontally */
+        justify-content: center; /* Center children vertically */
+        box-sizing: border-box; /* Ensure padding is included in width/height */
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: auto;
+    }
+    
+}
+
+.pillButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+
+    &:hover{
+        background-color: #787878;
+        color: white;
+    }
+
+    img {
+        width: 20px; /* Adjust the size of the logo */
+        height: 20px;
+    }
+}
