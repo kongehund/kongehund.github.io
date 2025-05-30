@@ -16,9 +16,9 @@ export default function Intro() {
                     This is achieved via a simple-to-use GUI that lets you manipulate timing points and visualize how the audio aligns with the current timing. 
                 </p>
                 <div className={introStyles.introButtonContainer}>
-                    <PillButton onClick={() => { window.open("https://kongehund.s-ul.eu/AOJkVKol", "_blank"); }}>
+                    <PillButton onClick={() => { window.open("https://github.com/teamkongehund/Tempora/releases", "_blank"); }}>
                         <img src={downloadSVG} alt="Download Icon" className={globalStyles.buttonIcon}/>
-                        Download for Windows
+                        Download
                     </PillButton>
                 </div>
             </div>
